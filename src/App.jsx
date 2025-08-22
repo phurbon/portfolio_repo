@@ -10,6 +10,9 @@ import { useState } from "react";
 function App() {
   const [language, setLanguage] = useState('en');
 
+  // Add a simple test to see if React is working
+  console.log('App component rendered, language:', language);
+
   const translations = {
     en: {
       hero: {
