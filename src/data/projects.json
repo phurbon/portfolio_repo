@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Green Pulse",
+    "imageSrc": "projects/greenpulse.png",
+    "description": "Full-stack app for managing users, products, and orders. Built with Spring Boot, MySQL, and Angular.",
+    "skills": ["Angular", "Spring Boot", "MySQL"],
+    "demo": "https://youtu.be/Sq93o72_gkg",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Protec",
+    "imageSrc": "projects/cypherswap.png",
+    "description": "Crypto-focused web app. I handled the entire frontend, focusing on UI design and responsive component integration.",
+    "skills": ["HTML", "CSS", "Spring Boot"],
+    "demo": "https://youtu.be/7rXbeMUJ4Bg",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Ricochet",
+    "imageSrc": "projects/ricorecep.png",
+    "description": "JavaFX app for the shelter Ricochet, user management with MySQL backend and Google Drive integration.",
+    "skills": ["Java", "JavaFX", "MySQL"],
+    "demo": "https://youtu.be/VuR7ami2yso",
+    "source": "https://github.com/phurbon/ProgrammeRicochet"
+  }
+]
