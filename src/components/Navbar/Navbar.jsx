@@ -6,6 +6,7 @@ import { getImageUrl } from "../../utils";
 export const Navbar = ({ language, setLanguage, translations }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const t = translations[language];
+  const baseUrl = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'fr' : 'en');
@@ -13,7 +14,7 @@ export const Navbar = ({ language, setLanguage, translations }) => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a className={styles.title} href={baseUrl}>
         Portfolio
       </a>
       <div className={styles.menu}>
