@@ -56,9 +56,20 @@ function App() {
           role: "Software Developer",
           organisation: "Ricochet",
           startDate: "July, 2024",
-          endDate: "Present",
+          endDate: "December 2025",
           experiences: ["Developed their desktop app to manage users"],
           imageSrc: "history/darkrico.png"
+        },
+        {
+          role: "Frontend Developer",
+          organisation: "Assemblée Nationale du Québec",
+          startDate: "August, 2025",
+          endDate: "Present",
+          experiences: [
+            "Built responsive UI features and reusable components for the web app",
+            "Collaborated on interface improvements and user experience updates", "Graphic designer for the website and other media"
+          ],
+          imageSrc: "history/logoassnat.jpg"
         }
       ],
       projectsList: [
@@ -85,6 +96,20 @@ function App() {
           skills: ["Java", "JavaFX", "MySQL"],
           demo: "https://youtu.be/VuR7ami2yso",
           source: "https://github.com/phurbon/ProgrammeRicochet"
+        },
+        {
+          title: "Effo-X",
+          imageSrc: "projects/effo.png",
+          description: "Custom e-commerce website for the Effo-X brand. I handled the frontend, focusing on responsive UI and product presentation.",
+          skills: ["React", "Spring Boot", "MySQL", "CSS", "UI/UX Design"],          demo: "https://effo-x.com",
+          source: ""
+        },
+        {
+          title: "MNA Brigitte Garceau Website",
+          imageSrc: "projects/bgar.png",
+          description: "Bilingual constituency website for Brigitte B. Garceau. I developed the frontend with a focus on clear UI and responsive layouts.",
+          skills: ["Figma", "HTML", "JavaScript"],          demo: "https://youtu.be/-qZNxoqNwu4",
+          source: ""
         }
       ],
       buttons: {
@@ -137,6 +162,18 @@ function App() {
           endDate: "Présent",
           experiences: ["Développé leur application desktop pour gérer les utilisateurs"],
           imageSrc: "history/darkrico.png"
+        },
+        {
+          role: "Développeur Frontend",
+          organisation: "Assemblée Nationale du Québec",
+          startDate: "Août, 2025",
+          endDate: "Présent",
+          experiences: [
+            "Création de fonctionnalités UI responsives et de composants réutilisables pour l'application web",
+            "Collaboration sur l'amélioration de l'interface et de l'expérience utilisateur",
+            "Graphiste pour le site web et d'autres supports visuels"
+          ],
+          imageSrc: "history/logoassnat.jpg"
         }
       ],
       projectsList: [
@@ -163,6 +200,22 @@ function App() {
           skills: ["Java", "JavaFX", "MySQL"],
           demo: "https://youtu.be/VuR7ami2yso",
           source: "https://github.com/phurbon/ProgrammeRicochet"
+        },
+        {
+          title: "Effo-X",
+          imageSrc: "projects/effo.png",
+          description: "Site e-commerce sur mesure pour la marque Effo-X. J'ai pris en charge le frontend, avec un focus sur une UI responsive et la présentation des produits.",
+          skills: ["React", "Spring Boot", "MySQL", "CSS", "Design UI/UX"],
+          demo: "https://effo-x.com",
+          source: ""
+        },
+        {
+          title: "Site web de la députée Brigitte Garceau",
+          imageSrc: "projects/bgar.png",
+          description: "Site de circonscription bilingue pour Brigitte B. Garceau. J'ai développé le frontend avec un accent sur une interface claire et des mises en page responsives.",
+          skills: ["Figma", "HTML", "JavaScript"],
+          demo: "https://youtu.be/-qZNxoqNwu4",
+          source: ""
         }
       ],
       buttons: {
